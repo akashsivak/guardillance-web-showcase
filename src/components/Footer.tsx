@@ -65,9 +65,9 @@ const Footer = () => {
             <h4 className="text-lg font-semibold mb-4">Services</h4>
             <ul className="space-y-2">
               <li className="text-background/80">CCTV Surveillance</li>
-              <li className="text-background/80">Security Systems</li>
-              <li className="text-background/80">Alarm Monitoring</li>
-              <li className="text-background/80">Video Analytics</li>
+              <li className="text-background/80">Digital Marketing</li>
+              <li className="text-background/80">Poster Designs</li>
+              <li className="text-background/80">Website Designs</li>
             </ul>
           </div>
         </div>

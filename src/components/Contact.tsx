@@ -66,7 +66,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-foreground mb-1">Email</h4>
-                  <p className="text-muted-foreground">info@guardillance.com</p>
+               <a href="mailto:guardianinfotechsolutions@gmail.com"> <p className="text-muted-foreground hover:underline">guardianinfotechsolutions@gmail.com</p></a>  
                   <p className="text-sm text-muted-foreground">We'll respond within 24 hours</p>
                 </div>
               </div>
@@ -77,8 +77,9 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-foreground mb-1">Office</h4>
-                  <p className="text-muted-foreground">123 Security Boulevard</p>
-                  <p className="text-muted-foreground">New York, NY 10001</p>
+                  <p className="text-muted-foreground">PJ Abraham Memorial Building, Angadical South</p>
+                  <p className="text-muted-foreground">Chengannur, Kerala, India
+</p>
                 </div>
               </div>
             </div>

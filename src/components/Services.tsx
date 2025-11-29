@@ -1,5 +1,9 @@
 import { TrendingUp, Palette, Monitor, Smartphone } from "lucide-react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import surveillanceImage from "@/assets/surveillance.jpg";
+import SurveillanceIcon from "@/icons/SurveillanceIcon";
+
+
 
 const Services = () => {
   const services = [
@@ -19,10 +23,14 @@ const Services = () => {
       description: "Modern, responsive websites that deliver exceptional user experiences and convert visitors into customers.",
     },
     {
-      icon: Smartphone,
-      title: "App Development",
-      description: "Custom mobile and web applications built with cutting-edge technology to bring your ideas to life.",
-    },
+  icon: SurveillanceIcon,
+  image: surveillanceImage,
+  title: "Surveillance Systems",
+  description: "Smart Security Solutions For Your Home & Business",
+  fullDescription:
+    "We provide advanced surveillance system installation including CCTV cameras, remote monitoring, and smart security integrations...",
+},
+
   ];
 
   return (

@@ -2,6 +2,7 @@ import { Shield, Eye, Lock } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/hero-security.jpg";
 
+
 const Hero = () => {
   const scrollToContact = () => {
     const element = document.getElementById("contact");
@@ -42,8 +43,8 @@ const Hero = () => {
             </Button>
             <Button
               size="lg"
-              variant="outline"
-              className="border-white text-white hover:bg-white hover:text-primary text-lg"
+             
+              className="bg-secondary hover:bg-secondary/90 text-secondary-foreground shadow-glow text-lg"
               onClick={() => document.getElementById("services")?.scrollIntoView({ behavior: "smooth" })}
             >
               Our Services
@@ -77,12 +78,6 @@ const Hero = () => {
         </div>
       </div>
 
-      {/* Scroll Indicator */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-        <div className="w-6 h-10 border-2 border-white rounded-full flex items-start justify-center p-2">
-          <div className="w-1 h-3 bg-white rounded-full" />
-        </div>
-      </div>
     </section>
   );
 };
